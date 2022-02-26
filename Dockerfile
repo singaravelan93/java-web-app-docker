@@ -1,3 +1,3 @@
-FROM Tomcat Connectors JK 1.2
+FROM tomcat:10.0.16
 # Dummy text to test 
 COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
